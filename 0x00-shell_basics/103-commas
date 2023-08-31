@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1 | sed '/^\.$/d;/^\.\.$/d' | grep -E '^[A-Za-z0-9]+\.$|^[A-Za-z0-9]+$' | tr '\n' ',' | sed 's/,$/\//;s/,$/\n/'
+ls -xamp
