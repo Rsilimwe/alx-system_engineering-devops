@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Total number of directories (including hidden): $count"
+find . -type d -path . | wc -l
